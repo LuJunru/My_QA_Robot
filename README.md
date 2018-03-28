@@ -1,11 +1,11 @@
 # Introduction
-## 本项目为基于社区问答的单轮检索式通用知识问答工程实现，原理及设计参考本项目附带的PDF文件
+  * 本项目为基于社区问答的单轮检索式通用知识问答工程实现，原理及设计参考本项目附带的PDF文件
 
 # Usage
 
-  Environment and requirements<br>
-  (1)环境要求: python3.6+<br>
-  (2)安装包要求: elasticsearch, jieba, tensorflow, snownlp, numpy, json, pickle, gensim, pyltp, importlib等<br>
+  * Environment and requirements<br>
+  * (1)环境要求: python3.6+<br>
+  * (2)安装包要求: elasticsearch, jieba, tensorflow, snownlp, numpy, json, pickle, gensim, pyltp, importlib等<br>
 
   Files<br>
   (1)basic_data_files: 所有相关数据文件，其中cnn_train_data指cnn模型训练语料，keywords指项目核心词表，qadata指本地知识数据<br>
