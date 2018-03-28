@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/admin1/QA_Robot/pre_trained_models/CNN_16/CNN_16.ckpt"
+all_model_checkpoint_paths: "/Users/admin1/QA_Robot/pre_trained_models/CNN_16/CNN_16.ckpt"

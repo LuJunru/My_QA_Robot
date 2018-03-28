@@ -1,0 +1,106 @@
+[2018-03-27T09:41:24,542][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-27T09:41:24,662][INFO ][o.e.e.NodeEnvironment    ] [E-HXVMz] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [147.7gb], net total_space [233.5gb], types [apfs]
+[2018-03-27T09:41:24,662][INFO ][o.e.e.NodeEnvironment    ] [E-HXVMz] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-03-27T09:41:24,685][INFO ][o.e.n.Node               ] node name [E-HXVMz] derived from node ID [E-HXVMzCScGtIUks9O3r-w]; set [node.name] to override
+[2018-03-27T09:41:24,685][INFO ][o.e.n.Node               ] version[6.2.2], pid[35879], build[10b1edd/2018-02-16T19:01:30.685723Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2018-03-27T09:41:24,685][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/jg/1_pskzf50zxcx97k1pl5shnm0000gn/T/elasticsearch.G7zd5wuf, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/Users/admin1/PycharmProjects/ideepwise/elasticsearch-6.2.2, -Des.path.conf=/Users/admin1/PycharmProjects/ideepwise/elasticsearch-6.2.2/config]
+[2018-03-27T09:41:25,644][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [aggs-matrix-stats]
+[2018-03-27T09:41:25,644][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [analysis-common]
+[2018-03-27T09:41:25,644][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [ingest-common]
+[2018-03-27T09:41:25,645][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-expression]
+[2018-03-27T09:41:25,645][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-mustache]
+[2018-03-27T09:41:25,645][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-painless]
+[2018-03-27T09:41:25,645][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [mapper-extras]
+[2018-03-27T09:41:25,645][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [parent-join]
+[2018-03-27T09:41:25,645][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [percolator]
+[2018-03-27T09:41:25,645][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [rank-eval]
+[2018-03-27T09:41:25,646][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [reindex]
+[2018-03-27T09:41:25,646][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [repository-url]
+[2018-03-27T09:41:25,646][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [transport-netty4]
+[2018-03-27T09:41:25,646][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [tribe]
+[2018-03-27T09:41:25,647][INFO ][o.e.p.PluginsService     ] [E-HXVMz] no plugins loaded
+[2018-03-27T09:41:29,662][INFO ][o.e.d.DiscoveryModule    ] [E-HXVMz] using discovery type [zen]
+[2018-03-27T09:41:30,584][INFO ][o.e.n.Node               ] initialized
+[2018-03-27T09:41:30,584][INFO ][o.e.n.Node               ] [E-HXVMz] starting ...
+[2018-03-27T09:41:30,855][INFO ][o.e.t.TransportService   ] [E-HXVMz] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-03-27T09:41:33,981][INFO ][o.e.c.s.MasterService    ] [E-HXVMz] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{O_8wBxm6S6eVKPLlwux3Fw}{127.0.0.1}{127.0.0.1:9300}
+[2018-03-27T09:41:33,988][INFO ][o.e.c.s.ClusterApplierService] [E-HXVMz] new_master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{O_8wBxm6S6eVKPLlwux3Fw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{O_8wBxm6S6eVKPLlwux3Fw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-03-27T09:41:34,031][INFO ][o.e.h.n.Netty4HttpServerTransport] [E-HXVMz] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-03-27T09:41:34,031][INFO ][o.e.n.Node               ] [E-HXVMz] started
+[2018-03-27T09:41:34,193][INFO ][o.e.g.GatewayService     ] [E-HXVMz] recovered [1] indices into cluster_state
+[2018-03-27T09:41:34,551][INFO ][o.e.c.r.a.AllocationService] [E-HXVMz] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[my-index][1]] ...]).
+[2018-03-27T09:47:39,436][INFO ][o.e.n.Node               ] [E-HXVMz] stopping ...
+[2018-03-27T09:47:39,471][INFO ][o.e.n.Node               ] [E-HXVMz] stopped
+[2018-03-27T09:47:39,471][INFO ][o.e.n.Node               ] [E-HXVMz] closing ...
+[2018-03-27T09:47:39,479][INFO ][o.e.n.Node               ] [E-HXVMz] closed
+[2018-03-27T10:04:23,215][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-27T10:04:23,327][INFO ][o.e.e.NodeEnvironment    ] [E-HXVMz] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [147.7gb], net total_space [233.5gb], types [apfs]
+[2018-03-27T10:04:23,328][INFO ][o.e.e.NodeEnvironment    ] [E-HXVMz] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-03-27T10:04:23,351][INFO ][o.e.n.Node               ] node name [E-HXVMz] derived from node ID [E-HXVMzCScGtIUks9O3r-w]; set [node.name] to override
+[2018-03-27T10:04:23,351][INFO ][o.e.n.Node               ] version[6.2.2], pid[36421], build[10b1edd/2018-02-16T19:01:30.685723Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2018-03-27T10:04:23,351][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/jg/1_pskzf50zxcx97k1pl5shnm0000gn/T/elasticsearch.FDIVkMFY, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/Users/admin1/PycharmProjects/ideepwise/elasticsearch-6.2.2, -Des.path.conf=/Users/admin1/PycharmProjects/ideepwise/elasticsearch-6.2.2/config]
+[2018-03-27T10:04:24,261][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [aggs-matrix-stats]
+[2018-03-27T10:04:24,261][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [analysis-common]
+[2018-03-27T10:04:24,262][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [ingest-common]
+[2018-03-27T10:04:24,262][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-expression]
+[2018-03-27T10:04:24,262][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-mustache]
+[2018-03-27T10:04:24,263][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-painless]
+[2018-03-27T10:04:24,263][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [mapper-extras]
+[2018-03-27T10:04:24,263][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [parent-join]
+[2018-03-27T10:04:24,264][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [percolator]
+[2018-03-27T10:04:24,264][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [rank-eval]
+[2018-03-27T10:04:24,264][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [reindex]
+[2018-03-27T10:04:24,265][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [repository-url]
+[2018-03-27T10:04:24,265][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [transport-netty4]
+[2018-03-27T10:04:24,265][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [tribe]
+[2018-03-27T10:04:24,266][INFO ][o.e.p.PluginsService     ] [E-HXVMz] no plugins loaded
+[2018-03-27T10:04:28,490][INFO ][o.e.d.DiscoveryModule    ] [E-HXVMz] using discovery type [zen]
+[2018-03-27T10:04:29,306][INFO ][o.e.n.Node               ] initialized
+[2018-03-27T10:04:29,306][INFO ][o.e.n.Node               ] [E-HXVMz] starting ...
+[2018-03-27T10:04:29,668][INFO ][o.e.t.TransportService   ] [E-HXVMz] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-03-27T10:04:32,761][INFO ][o.e.c.s.MasterService    ] [E-HXVMz] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{-eEkvaEFQJe_sKjZTT6yDg}{127.0.0.1}{127.0.0.1:9300}
+[2018-03-27T10:04:32,769][INFO ][o.e.c.s.ClusterApplierService] [E-HXVMz] new_master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{-eEkvaEFQJe_sKjZTT6yDg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{-eEkvaEFQJe_sKjZTT6yDg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-03-27T10:04:32,794][INFO ][o.e.h.n.Netty4HttpServerTransport] [E-HXVMz] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-03-27T10:04:32,795][INFO ][o.e.n.Node               ] [E-HXVMz] started
+[2018-03-27T10:04:33,026][INFO ][o.e.g.GatewayService     ] [E-HXVMz] recovered [1] indices into cluster_state
+[2018-03-27T10:04:33,383][INFO ][o.e.c.r.a.AllocationService] [E-HXVMz] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[my-index][3]] ...]).
+[2018-03-27T11:21:26,200][INFO ][o.e.n.Node               ] [E-HXVMz] stopping ...
+[2018-03-27T11:21:26,790][INFO ][o.e.n.Node               ] [E-HXVMz] stopped
+[2018-03-27T11:21:26,791][INFO ][o.e.n.Node               ] [E-HXVMz] closing ...
+[2018-03-27T11:21:26,893][INFO ][o.e.n.Node               ] [E-HXVMz] closed
+[2018-03-27T15:01:21,922][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-27T15:01:22,035][INFO ][o.e.e.NodeEnvironment    ] [E-HXVMz] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [139.9gb], net total_space [233.5gb], types [apfs]
+[2018-03-27T15:01:22,036][INFO ][o.e.e.NodeEnvironment    ] [E-HXVMz] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-03-27T15:01:22,060][INFO ][o.e.n.Node               ] node name [E-HXVMz] derived from node ID [E-HXVMzCScGtIUks9O3r-w]; set [node.name] to override
+[2018-03-27T15:01:22,060][INFO ][o.e.n.Node               ] version[6.2.2], pid[44051], build[10b1edd/2018-02-16T19:01:30.685723Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_111/25.111-b14]
+[2018-03-27T15:01:22,061][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/jg/1_pskzf50zxcx97k1pl5shnm0000gn/T/elasticsearch.iIzZARdZ, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/Users/admin1/PycharmProjects/ideepwise/elasticsearch-6.2.2, -Des.path.conf=/Users/admin1/PycharmProjects/ideepwise/elasticsearch-6.2.2/config]
+[2018-03-27T15:01:22,998][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [aggs-matrix-stats]
+[2018-03-27T15:01:22,998][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [analysis-common]
+[2018-03-27T15:01:22,999][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [ingest-common]
+[2018-03-27T15:01:22,999][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-expression]
+[2018-03-27T15:01:22,999][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-mustache]
+[2018-03-27T15:01:22,999][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [lang-painless]
+[2018-03-27T15:01:23,000][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [mapper-extras]
+[2018-03-27T15:01:23,000][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [parent-join]
+[2018-03-27T15:01:23,000][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [percolator]
+[2018-03-27T15:01:23,001][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [rank-eval]
+[2018-03-27T15:01:23,001][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [reindex]
+[2018-03-27T15:01:23,001][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [repository-url]
+[2018-03-27T15:01:23,002][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [transport-netty4]
+[2018-03-27T15:01:23,002][INFO ][o.e.p.PluginsService     ] [E-HXVMz] loaded module [tribe]
+[2018-03-27T15:01:23,002][INFO ][o.e.p.PluginsService     ] [E-HXVMz] no plugins loaded
+[2018-03-27T15:01:29,641][INFO ][o.e.d.DiscoveryModule    ] [E-HXVMz] using discovery type [zen]
+[2018-03-27T15:01:30,547][INFO ][o.e.n.Node               ] initialized
+[2018-03-27T15:01:30,548][INFO ][o.e.n.Node               ] [E-HXVMz] starting ...
+[2018-03-27T15:01:30,796][INFO ][o.e.t.TransportService   ] [E-HXVMz] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-03-27T15:01:33,959][INFO ][o.e.c.s.MasterService    ] [E-HXVMz] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{HGaPvOHnSWOYeOnyG_MAuQ}{127.0.0.1}{127.0.0.1:9300}
+[2018-03-27T15:01:33,966][INFO ][o.e.c.s.ClusterApplierService] [E-HXVMz] new_master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{HGaPvOHnSWOYeOnyG_MAuQ}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {E-HXVMz}{E-HXVMzCScGtIUks9O3r-w}{HGaPvOHnSWOYeOnyG_MAuQ}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-03-27T15:01:33,988][INFO ][o.e.h.n.Netty4HttpServerTransport] [E-HXVMz] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-03-27T15:01:33,988][INFO ][o.e.n.Node               ] [E-HXVMz] started
+[2018-03-27T15:01:34,196][INFO ][o.e.g.GatewayService     ] [E-HXVMz] recovered [1] indices into cluster_state
+[2018-03-27T15:01:35,158][INFO ][o.e.c.r.a.AllocationService] [E-HXVMz] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[my-index][2]] ...]).
+[2018-03-27T18:13:44,484][INFO ][o.e.m.j.JvmGcMonitorService] [E-HXVMz] [gc][11496] overhead, spent [425ms] collecting in the last [1s]
+[2018-03-27T18:24:51,495][INFO ][o.e.n.Node               ] [E-HXVMz] stopping ...
+[2018-03-27T18:24:51,555][INFO ][o.e.n.Node               ] [E-HXVMz] stopped
+[2018-03-27T18:24:51,556][INFO ][o.e.n.Node               ] [E-HXVMz] closing ...
+[2018-03-27T18:24:51,568][INFO ][o.e.n.Node               ] [E-HXVMz] closed
