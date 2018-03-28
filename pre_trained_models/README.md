@@ -1,0 +1,2 @@
+# Introduction
+  * pre_trained_models: 预训练好的模型，CNN_N指Maxlength为N的CNN模型，xgboost_qaquality_21_60dz_s0.745.pkl指使用21维特征和60维词向量训练的十折交叉准确率为0.745的问答质量评价子模型
