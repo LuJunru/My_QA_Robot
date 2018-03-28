@@ -16,8 +16,7 @@
                    3. 如果没有出现网址，在地址栏输入'localhost:6006'即可<br>
     - elasticsearch-6.2.2: 存放ES中插入的数据及对应索引<br>
     - ltp_data_v3.4.0: 存放使用pyltp提取ner和主谓宾时的预加载模型，请参照mainprogram.py第79-80行注释下载<br>
-    - pre_trained_models: 预训练好的模型，CNN_N指Maxlength为N的CNN模型，xgboost_qaquality_21_60dz_s0.745.pkl<br>
-                           指使用21维特征和60维词向量训练的十折交叉准确率为0.745的问答质量评价子模型<br>
+    - pre_trained_models: 预训练好的模型，CNN_N指Maxlength为N的CNN模型，xgboost_qaquality_21_60dz_s0.745.pkl指使用21维特征和60维词向量训练的十折交叉准确率为0.745的问答质量评价子模型<br>
     - Word Embedding: 词向量，请参照mainprogram.py第72-73行注释下载<br>
 
   * Programs<br>
