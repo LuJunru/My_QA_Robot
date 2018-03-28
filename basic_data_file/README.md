@@ -1,0 +1,2 @@
+# Introduction
+  * basic_data_files: 所有相关数据文件，其中cnn_train_data指cnn模型训练语料，keywords指项目核心词表，qadata指本地知识数据，qar_test指用于问答质量子模块训练用的10W百度知道问答数据，stopwords指停用词表，fieldwords指领域词，photo_content指的是在爬取百度知道内容时，为应对文字图片化反爬机制收集的文字-图片对照表
