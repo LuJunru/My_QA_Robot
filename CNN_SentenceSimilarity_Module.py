@@ -177,6 +177,6 @@ if __name__ == '__main__':
         with tf.Session() as sess:
             saver = tf.train.Saver()
             saver.restore(sess, saverpath)
-            prediction_result = sess.run(prediction, feed_dict={xs: s1_s2_simipics(s1, s2, MAX_LENTH), keep_prob: 1.0})
+            prediction_result = sess.run(prediction, feed_dict={xs: s1_s2_simipics(jieba.lcut(s1), jieba.lcut(s2), MAX_LENTH), keep_prob: 1.0})
 
         print(prediction_result.tolist()[0][-1])
